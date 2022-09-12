@@ -3,7 +3,12 @@ import { createStore } from 'vuex'
 const store = createStore({
   state() {
     return {
-        username: 'lrangel'
+        username: 'Luis.Rangel'
+    }
+  },
+  getters: {
+    firstName: (state) => (c) => {
+        return state.username.split('').reverse().join(c)
     }
   }
 })
