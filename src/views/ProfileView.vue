@@ -16,7 +16,7 @@
 
 <script>
   import store from '@/store/store.js'
-  import { mapState, mapMutations } from 'vuex';
+  import { mapState, mapMutations, mapActions } from 'vuex';
   
   export default {
     computed: {
@@ -25,7 +25,7 @@
       })
     },
     methods: {
-      ...mapMutations(['updateUsername'])
+      ...mapActions(['updateUsername'])
     }
   }
   </script>
