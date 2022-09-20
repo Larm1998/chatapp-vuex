@@ -18,7 +18,6 @@ export default {
       search: '',
       profile: {
         username: 'Diana Nerd',
-        status: 'active',
         avatar: '/avatars/avatar.jpg'
       },
       channels: [
@@ -32,15 +31,11 @@ export default {
     }
   },
   computed: {
-    foo() {},
-    ...mapState([
-      'username'
-    ]),
-    ...mapGetters([
+    ...mapState(['status']),
+    ...mapGetters('profile', [
       'firstName'
     ])
-  }
-
+  },
 }
 </script>
 
