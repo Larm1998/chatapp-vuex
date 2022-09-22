@@ -17,7 +17,7 @@ export default {
     return {
       search: '',
       profile: {
-        username: 'Diana Nerd',
+        username: 'Luis Rangel',
         avatar: '/avatars/avatar.jpg'
       },
       channels: [
