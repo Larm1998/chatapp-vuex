@@ -5,7 +5,13 @@ const module = {
   namespaced: true,
   state() {
     return {
-        username: 'Luis.Rangel'
+        id: 1,
+        username: 'l.rangel',
+        details: {
+          id: 1,
+          name: 'Luis rangel',
+          avatar: '/avatars/avatar.jpg'
+        }
     }
   },
   getters: {
