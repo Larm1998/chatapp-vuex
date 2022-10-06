@@ -1,6 +1,6 @@
 <template>
   <div class="void-messages-view">
-    <h4>Seleccione un canal</h4>
+    <h4>Select a Channel</h4>
   </div>
 </template>
 
