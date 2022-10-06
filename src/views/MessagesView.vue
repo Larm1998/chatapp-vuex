@@ -9,7 +9,7 @@ export default {
   data() {
     return {
       channelId: null,
-      title: 'Nombre del canal',
+      title: 'Channel Name',
       people: [
         { id: 1, name: 'Tú', avatar: '/avatars/avatar.jpg' },
       ],

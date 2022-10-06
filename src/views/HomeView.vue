@@ -51,7 +51,7 @@ export default {
       :username="firstName(',')"
       :status="profile.status"
     />
-    <RouterLink to="/" class="channels-title">Canales <Icon icon="carbon:hashtag" /></RouterLink>
+    <RouterLink to="/" class="channels-title">channels <Icon icon="carbon:hashtag" /></RouterLink>
     <div class="channels">
       <ChatItem
         v-for="channel in getChannels(search)"

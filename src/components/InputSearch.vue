@@ -7,7 +7,7 @@ defineEmits(['update:modelValue'])
   <div class="input-search">
     <input
       type="text"
-      placeholder="Buscar"
+      placeholder="Search"
       :value="modelValue"
       @input="$emit('update:modelValue', $event.target.value)"
     />

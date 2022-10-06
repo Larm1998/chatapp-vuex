@@ -19,7 +19,7 @@ const props = defineProps({
 const { status } = toRefs(props)
 
 const statusText = computed(
-  () => status.value === 'active' ? 'Activo' : 'Inactivo'
+  () => status.value === 'active' ? 'Active' : 'Inactive'
 )
 </script>
 
