@@ -28,6 +28,8 @@ npm run dev
 npm run build
 ```
 
+# App Running:
+
 
 ### Home Page
 
