@@ -27,3 +27,21 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### Home Page
+
+<img width="1677" alt="image" src="https://user-images.githubusercontent.com/36891937/194387392-c5b254e7-c5ca-4147-9b9f-1da3f879c5c6.png">
+
+
+### Edit Profile Page
+
+<img width="493" alt="image" src="https://user-images.githubusercontent.com/36891937/194387508-0b4b091d-03c8-437a-8b33-fbf334f19f92.png">
+
+
+
+### Chat Channels Page
+
+<img width="1676" alt="Screen Shot 2022-10-06 at 1 11 13 PM" src="https://user-images.githubusercontent.com/36891937/194387673-cb4ff4ea-8162-4886-a163-eebe43e5dfba.png">
+
+
